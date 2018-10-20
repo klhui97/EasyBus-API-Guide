@@ -27,6 +27,7 @@ GET http://example.com/?action=geteta&route=1&stop_seq=16&servicetype=1&bound=1&
 
 ### Define a response
 A json response is required. An array with the key "response" is required. The "response" contains N eta dictonary. This dictonary must contain the below information:
+
 | Key | Value | Type | Notes |
 |-----|-------|---|---|
 |w|"Y" / "N"|String(Optional)|to indicate if the bus is operating|
